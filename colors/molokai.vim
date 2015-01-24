@@ -161,7 +161,7 @@ hi VisualNOS    guibg=#403D3D
 hi Visual       guibg=#403D3D
 " }}}
 " Invisible character colors {{{
-highlight NonText    guifg=#444444 guibg=bg
+highlight NonText    guifg=#444444 guibg=black
 highlight SpecialKey guifg=#444444 guibg=bg
 " }}}
 
@@ -263,7 +263,7 @@ if &t_Co > 255
     hi CursorColumn                  ctermbg=234
     hi ColorColumn                   ctermbg=239
     hi LineNr            ctermfg=25  ctermbg=233
-    hi NonText           ctermfg=240 ctermbg=233
+    hi NonText           ctermfg=240 ctermbg=black
 
     hi TabLineFill      term=bold   cterm=bold  ctermfg=White   ctermbg=235
     hi TabLine          ctermfg=251             ctermbg=235
