@@ -18,7 +18,7 @@ hi Folded           guifg=#666666    guibg=bg
 hi CursorLine                        guibg=#232728
 hi CursorColumn                      guibg=#232728
 hi ColorColumn                       guibg=#232728
-hi LineNr           guifg=#AAAAAA    guibg=bg
+hi LineNr           guifg=#005FAF    guibg=#121212
 hi FoldColumn       guifg=#AAAAAA    guibg=bg
 hi VertSplit        guifg=#AAAAAA    guibg=bg       gui=none
 hi Search           guifg=#000000    guibg=#E4E500
