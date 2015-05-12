@@ -1,7 +1,7 @@
 " Vim color file
 "
 " Author: Tomas Restrepo <tomas@winterdom.com>
-" Modified by: Steve Losh <steve@stevelosh.com>
+" mOdified by: Steve Losh <steve@stevelosh.com>
 "
 " Note: Based on the monokai theme for textmate
 " by Wimer Hazenberg and its darker variant 
@@ -29,24 +29,26 @@ hi MatchParen       guifg=#ffec00    guibg=#232728  gui=bold
 " }}}
 " Syntax {{{
 
-hi Boolean          guifg=#AE81FF
-hi Comment          guifg=#5c7176
-hi Character        guifg=#008700
-hi Number           guifg=#AE81FF
-hi String           guifg=#008700
-hi Conditional      guifg=#F92672                   gui=bold
-hi Constant         guifg=#AE81FF                   gui=bold
-hi Debug            guifg=#BCA3A3                   gui=bold
-hi Define           guifg=#F92672
-hi Delimiter        guifg=#008700
-hi Float            guifg=#AE81FF
-hi Function         guifg=#A6E22E
-hi Identifier       guifg=#FD971F
-hi Error            guifg=#960050                   guibg=#1E0010
-hi Keyword          guifg=#F92672                   gui=bold
-hi Label            guifg=#E6DB74                   gui=none
-hi Macro            guifg=#C4BE89                   gui=italic
-hi SpecialKey       guifg=#D78700                   gui=italic
+hi JavascriptAttribute  guifg=#0087D7
+hi JavascriptMethod     guifg=#AF5FFF
+hi Boolean              guifg=#AE81FF
+hi Comment              guifg=#5c7176
+hi Character            guifg=#008700
+hi Number               guifg=#AE81FF
+hi String               guifg=#008700
+hi Conditional          guifg=#F92672       gui=bold
+hi Constant             guifg=#AE81FF       gui=bold
+hi Debug                guifg=#BCA3A3       gui=bold
+hi Define               guifg=#F92672
+hi Delimiter            guifg=#008700
+hi Float                guifg=#AE81FF
+hi Function             guifg=#A6E22E
+hi Identifier           guifg=#FD971F
+hi Error                guifg=#960050       guibg=#1E0010
+hi Keyword              guifg=#F92672       gui=bold
+hi Label                guifg=#E6DB74       gui=none
+hi Macro                guifg=#C4BE89       gui=italic
+hi SpecialKey           guifg=#D78700       gui=italic
 
 " }}}
 " Diffs {{{
@@ -167,6 +169,10 @@ highlight SpecialKey guifg=#444444 guibg=bg
 
 " Support for 256-color terminals {{{
 if &t_Co > 255
+    " Custom types
+    hi JavascriptAttribute      ctermfg=32
+    hi JavascriptMethod         ctermfg=135
+
     hi Boolean         ctermfg=135
     hi Character       ctermfg=28
     hi Number          ctermfg=135
@@ -259,7 +265,7 @@ if &t_Co > 255
 
     hi Normal          ctermfg=252   ctermbg=black
     hi Comment         ctermfg=59
-    hi CursorLine                    ctermbg=24     cterm=none
+    hi CursorLine                    ctermbg=235     cterm=none
     hi CursorColumn                  ctermbg=234
     hi ColorColumn                   ctermbg=239
     hi LineNr            ctermfg=25  ctermbg=233
