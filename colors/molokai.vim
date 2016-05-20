@@ -273,7 +273,7 @@ if &t_Co > 255
 
     hi TabLineFill      term=bold   cterm=bold  ctermfg=White   ctermbg=235
     hi TabLine          ctermfg=251             ctermbg=235
-    hi TabLineSel       ctermfg=White           ctermbg=24
+    hi TabLineSel       ctermfg=White           ctermbg=27
 
 end " }}}
 
