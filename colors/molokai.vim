@@ -172,6 +172,8 @@ if &t_Co > 255
     " Custom types
     hi JavascriptAttribute      ctermfg=32
     hi JavascriptMethod         ctermfg=135
+    hi HtmlFunction             ctermfg=32
+    hi HtmlTagName              ctermfg=161
 
     hi Boolean         ctermfg=135
     hi Character       ctermfg=28
