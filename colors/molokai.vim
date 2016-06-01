@@ -171,6 +171,7 @@ highlight SpecialKey guifg=#444444 guibg=bg
 if &t_Co > 255
     " Custom types
     hi JavascriptAttribute      ctermfg=32
+    hi JSONKeyword              ctermfg=32
     hi JavascriptMethod         ctermfg=135
     hi HtmlFunction             ctermfg=32
     hi HtmlTagName              ctermfg=161
@@ -179,6 +180,7 @@ if &t_Co > 255
     hi Character       ctermfg=28
     hi Number          ctermfg=135
     hi String          ctermfg=28
+    hi Quote           ctermfg=28
     hi Conditional     ctermfg=161              cterm=bold
     hi Constant        ctermfg=135              cterm=bold
     hi Cursor          ctermfg=16               ctermbg=253
