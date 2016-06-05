@@ -196,7 +196,7 @@ if &t_Co > 255
     hi DiffDelete      ctermfg=162 ctermbg=53
     hi DiffText                    ctermbg=102 cterm=bold
 
-    hi Directory       ctermfg=118               cterm=bold
+    hi Directory       ctermfg=111
     hi Error           ctermfg=219 ctermbg=89
     hi ErrorMsg        ctermfg=199 ctermbg=16    cterm=bold
     hi Exception       ctermfg=118               cterm=bold
@@ -230,13 +230,13 @@ if &t_Co > 255
     hi PreProc         ctermfg=34
     hi Question        ctermfg=81
     hi Repeat          ctermfg=161               cterm=bold
-    hi Search          ctermfg=253 ctermbg=27
+    hi Search          ctermfg=253 ctermbg=32
 
     " marks column
     hi SignColumn      ctermfg=118 ctermbg=235
     hi SpecialChar     ctermfg=161               cterm=bold
     hi SpecialComment  ctermfg=245               cterm=bold
-    hi Special         ctermfg=69  ctermbg=232
+    hi Special         ctermfg=69  ctermbg=234
     hi SpecialKey      ctermfg=245
 
     hi Statement       ctermfg=161               cterm=bold
@@ -267,13 +267,13 @@ if &t_Co > 255
     hi WarningMsg      ctermfg=231   ctermbg=238     cterm=bold
     hi WildMenu        ctermfg=81    ctermbg=16
 
-    hi Normal          ctermfg=252   ctermbg=black
+    hi Normal          ctermfg=252   ctermbg=234
     hi Comment         ctermfg=59
     hi CursorLine                    ctermbg=235     cterm=none
     hi CursorColumn                  ctermbg=234
     hi ColorColumn                   ctermbg=239
-    hi LineNr            ctermfg=25  ctermbg=233
-    hi NonText           ctermfg=240 ctermbg=black
+    hi LineNr            ctermfg=25  ctermbg=234
+    hi NonText           ctermfg=240 ctermbg=234
 
     hi TabLineFill      term=bold   cterm=bold  ctermfg=White   ctermbg=235
     hi TabLine          ctermfg=251             ctermbg=235
