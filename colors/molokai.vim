@@ -272,7 +272,7 @@ if &t_Co > 255
     hi CursorLine                    ctermbg=235     cterm=none
     hi CursorColumn                  ctermbg=234
     hi ColorColumn                   ctermbg=239
-    hi LineNr            ctermfg=25  ctermbg=234
+    hi LineNr            ctermfg=241  ctermbg=235
     hi NonText           ctermfg=240 ctermbg=234
 
     hi TabLineFill      term=bold   cterm=bold  ctermfg=White   ctermbg=235
