@@ -191,10 +191,10 @@ if &t_Co > 255
     hi EasyMotionTarget ctermfg=11
     hi EasyMotionShade  ctermfg=8
 
-    hi DiffAdd                     ctermbg=24
-    hi DiffChange      ctermfg=181 ctermbg=239
-    hi DiffDelete      ctermfg=162 ctermbg=53
-    hi DiffText                    ctermbg=102 cterm=bold
+    hi DiffAdd          ctermbg=235  ctermfg=108
+    hi DiffChange       ctermbg=235  ctermfg=60
+    hi DiffDelete       ctermbg=235  ctermfg=131
+    hi DiffText         ctermbg=235  ctermfg=110
 
     hi Directory       ctermfg=111
     hi Error           ctermfg=219 ctermbg=89
